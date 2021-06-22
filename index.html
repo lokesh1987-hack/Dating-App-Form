@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating App form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_body">
+        <div class="heading">
+            <h1>Dating App Form</h1>
+            <hr>
+        </div>
+        <div class="form">
+            <label id="label" for="Personaldetail">Personal Detail *</label>
+            <div class="detail_box">
+                <div class="name">
+                    <label for="fname">First Name :</label>
+                    <input type="text" name="fname" id="fname" placeholder="Liladhar">
+                </div>
+                <div class="last">
+                    <label for="lname">Last Name :</label>
+                    <input type="text" name="lname" placeholder="Harode" id="lname">
+                </div>
+                <div class="email">
+                    <label for="email">Email :</label>
+                    <input type="email" name="email" placeholder="lokeshharode1987@gmail.com">
+                </div>
+                <div class="number">
+                    <label for="number">Phone Number :</label>
+                    <input type="tel" name="number" placeholder="7020251987">
+                </div>
+                <div class="Gender">
+                    <label for="gender">Gender :</label>
+                    <input type="radio" name="gender">Male</input>
+                    <input type="radio" name="gender">Female</input>
+                </div>
+                <div class="date">
+                    <label for="date">Date of proposed outline</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div class="dropdown">
+                    <select>
+                        <option value="0">------------Select value------------</option>
+                        <option value="1"> I have tattoos and/or piercings</option>
+                        <option value="2">I am more than 2 years older than my daughter</option>
+                        <option value="3">I own a panel van or Ferrari</option>
+                        <option value="4"> I work full-time</option>
+                        <option value="5"> My parents are rich</option>
+                        <option value="6">Is the date at a private/public location</option>
+                        <option value="7">Education level completed</option>
+                    </select>
+                </div>
+                <div class="text">
+                    <label for="info">Why do you want to date my daughter (50 words input)?</label>
+                    <textarea name="info" id="info" rows="9" cols="50" placeholder="Write Here..........." maxlength="50" autofocus
+                        required wrap="hard"></textarea>
+                </div>
+                <div class="submit">
+                    <button type="reset">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
